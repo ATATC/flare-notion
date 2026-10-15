@@ -1,0 +1,6 @@
+interface:
+  display_name: "FLARE Notion"
+  short_description: "Maintain flat Master Tasks with calibrated effort"
+  default_prompt: "Use $flare-notion to maintain my Notion project tasks, fill required properties, calibrate estimates from completed work, and record actual time when completing tasks."
+policy:
+  allow_implicit_invocation: true
