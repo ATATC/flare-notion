@@ -11,7 +11,8 @@ Maintain task records in the user's existing Notion project-management system. A
 
 - [Master Tasks](https://app.notion.com/p/8e4393cf67ef4ca08fdbf7b573435b96) is the canonical task database.
 - [FLARE T3 Summary Paper](https://app.notion.com/p/3f3e77d20a408046a061f0b2bc1a5a0e) is the project used to establish this workflow. Use the project specified in the current request; do not route every task here.
-- Prefer an available Notion connector. Otherwise use the documented computer-use tools with the existing Notion session. Inspect current records and property options before editing; links and past observations are context, not proof of current state.
+- Access Notion exclusively through documented computer-use tools, using the Notion desktop app or its browser interface with the user's existing session. Do not use Notion MCP connectors, Notion API calls, or direct network requests to read or modify Notion data, even when those integrations are available. A computer-use tool being exposed through an MCP transport does not make it a Notion connector; the required interaction is through the visible Notion UI.
+- Inspect current records and property options before editing; links and past observations are context, not proof of current state. If computer use is unavailable or blocked, report the limitation and ask for the necessary session/access rather than switching to a Notion connector or API.
 - Update records and page content within scope. Preserve the database schema, formulas, views, sharing, and permissions. Reuse existing people and select options.
 
 ## Every actionable step is a Master Task

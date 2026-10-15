@@ -39,7 +39,7 @@ Provide the target project and assignee when they are not clear from context. Th
 
 ## Access and workspace
 
-You need access to the lab's Notion workspace and an available Notion connector or supported computer-use session. Installing the skill supplies instructions; it does not grant Notion access or install a connector.
+You need access to the lab's Notion workspace and a supported computer-use session in the Notion desktop app or browser. This skill uses the visible Notion UI exclusively; it does not use Notion MCP connectors or direct Notion API access. Installing the skill supplies instructions; it does not grant Notion access or install computer-use tools.
 
 The skill links to the lab's existing Master Tasks database and FLARE T3 Summary Paper project. Those pages retain their existing Notion permissions. It uses the project specified in your request and identifies the current task owner rather than defaulting to the repository author.
 
